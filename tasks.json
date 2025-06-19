@@ -12,5 +12,40 @@
         "description": "Clean the dinner dishes",
         "due_date": null,
         "completed": false
+    },
+    {
+        "id": 3,
+        "title": "Making my nails",
+        "description": "painting my nails red",
+        "due_date": null,
+        "completed": false
+    },
+    {
+        "id": 4,
+        "title": "Cleaning my house",
+        "description": "general cleaning",
+        "due_date": null,
+        "completed": false
+    },
+    {
+        "id": 5,
+        "title": "taking my dog for walk",
+        "description": "take poppy for a walk at the park",
+        "due_date": null,
+        "completed": false
+    },
+    {
+        "id": 6,
+        "title": "submit report",
+        "description": "submit school trip report",
+        "due_date": "2025-06-23",
+        "completed": false
+    },
+    {
+        "id": 7,
+        "title": "clean my shoes",
+        "description": "only heels",
+        "due_date": "2025-06-17",
+        "completed": true
     }
 ]
