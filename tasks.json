@@ -1,0 +1,16 @@
+[
+    {
+        "id": 1,
+        "title": "wash clothes",
+        "description": "put the clothes in machine",
+        "due_date": null,
+        "completed": false
+    },
+    {
+        "id": 2,
+        "title": "Do the dishes",
+        "description": "Clean the dinner dishes",
+        "due_date": null,
+        "completed": false
+    }
+]
