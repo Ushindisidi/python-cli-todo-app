@@ -1,11 +1,11 @@
 from datetime import datetime
 
 class Task:
-    def _init_(self, id, title, description, due_date=None, completed=False):
+    def __init__(self, id, title, description, due_date=None, completed=False):
         self.id = id
         self.title = title
         self.description = description
-        self.due_date = due_date  # Should be in 'YYYY-MM-DD' format if provided
+        self.due_date = due_date  
         self.completed = completed
 
     def mark_complete(self):
@@ -20,7 +20,11 @@ class Task:
             "completed": self.completed
         }
 
-    def _str_(self):
-        status = "✓" if self.completed else "✗"
-        due = f" (Due: {self.due_date})" if self.due_date else ""
-        return f"[{status}] {self.id}. {self.title}{due} - {self.description}"
+    def __str__(self):
+        status = "✓" if self.completed else ""
+        due_info= f" (Due: {self.due_date})" if self.due_date else ""
+        return (
+            f"[{status}] Task {self.id}: {self.title}{due_info}\n"
+            f" Description: {self.description}"
+            )
+               
