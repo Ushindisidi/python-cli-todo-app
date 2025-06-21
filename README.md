@@ -57,8 +57,8 @@ Here are some common commands you can use with the Python CLI To-Do App:
     ```
 
 ##screenshots
-![Getting help, adding a task, getting task list](image.png)
-![marking tasks as complete and deleting tasks ](image-1.png)
+![Getting help, adding a task, getting task list](images/image.png)
+![marking tasks as complete and deleting tasks ](images/image-1.png)
 
 ##Skills demonstrated
 - python OOP
