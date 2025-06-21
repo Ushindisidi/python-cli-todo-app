@@ -34,8 +34,9 @@ Here are some common commands you can use with the Python CLI To-Do App:
 
 - **Add a new task:**
     ```bash
-    python app.py add "Buy groceries"
+    python app.py add "Title" "Description"
     ```
+    
 
 - **List all tasks:**
     ```bash
